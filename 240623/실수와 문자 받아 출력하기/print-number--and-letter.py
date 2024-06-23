@@ -1,0 +1,8 @@
+c = input()
+a = input()
+b = input()
+a = double(a)
+b = double(b)
+print(c)
+print(a)
+print(b)
