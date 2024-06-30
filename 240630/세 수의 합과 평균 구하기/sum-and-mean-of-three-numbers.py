@@ -4,4 +4,4 @@ b = int(i[1])
 c = int(i[2])
 
 print(a + b + c)
-print(round((a + b + c) / 3))
+print((a + b + c) // 3)
