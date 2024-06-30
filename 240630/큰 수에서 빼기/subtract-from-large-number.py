@@ -4,5 +4,5 @@ b = int(i[1])
 
 if a > b :
     print(a - b)
-if b > a :
+if a <= b :
     print(b - a)
