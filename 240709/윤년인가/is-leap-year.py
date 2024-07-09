@@ -7,5 +7,3 @@ else :
         print("true")
     else : 
         print("false")
-else :
-    print("false")
