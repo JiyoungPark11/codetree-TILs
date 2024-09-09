@@ -1,11 +1,15 @@
 i = input().split()
-a = i[0]
-b = i[1]
-c = i[2]
+a = int(i[0])
+b = int(i[1])
+c = int(i[2])
 
-if a > b and a > c :
-    print(a)
-elif b > a and b > c :
-    print(b)
-else :
-    print(c)
+if a >= b :
+    if a >= c :
+        print(a)
+    else :
+        print(c)
+else 
+    if  b >= c :
+        print(b)
+    else :
+        print(c)
