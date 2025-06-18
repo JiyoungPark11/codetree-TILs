@@ -10,5 +10,5 @@ for i in range(a, b+1):
         sum_val += i
         item_num += 1
 
-avg = round(sum_val / item_num)
+avg = round(sum_val / item_num, 1)
 print(sum_val, avg)
