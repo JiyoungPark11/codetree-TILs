@@ -10,5 +10,7 @@ while True:
     cnt += 1
     sum_val += n
 
-avg = round(sum_val/cnt, 2)
-print(f"{avg:.2f}")
+if cnt > 0:
+    avg = round(sum_val/cnt, 2)
+    print(f"{avg:.2f}")
+'
