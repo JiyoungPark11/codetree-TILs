@@ -4,12 +4,12 @@ cnt = 0
 while True:
     n = int(input())
 
-    if n >= 30:
+    if n >= 30 or n < 20:
         break
     
     cnt += 1
     sum_val += n
 
-if cnt > 0:
-    avg = round(sum_val/cnt, 2)
-    print(f"{avg:.2f}")
+
+avg = round(sum_val/cnt, 2)
+print(f"{avg:.2f}")
