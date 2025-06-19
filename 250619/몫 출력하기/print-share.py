@@ -5,6 +5,6 @@ while cnt < 4:
     n = int(input())
     if n % 2 == 1:
         continue
-    else:
+    if n % 2 == 0:
         print(n // 2)
     
