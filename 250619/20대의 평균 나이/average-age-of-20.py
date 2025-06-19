@@ -13,4 +13,3 @@ while True:
 if cnt > 0:
     avg = round(sum_val/cnt, 2)
     print(f"{avg:.2f}")
-'
