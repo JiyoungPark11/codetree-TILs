@@ -1,0 +1,1 @@
+print("He says \"it\'s really simple sentence.")
